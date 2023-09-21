@@ -1,3 +1,10 @@
+# This is a Spotify Clone made with NextJs13, PostgreSQL, Supabase and TailwindCSS
+
+You can Login with your github account or your email and add songs to this.
+
+I have added a test song and image which you can download from the testData folder and upload to the site!
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
