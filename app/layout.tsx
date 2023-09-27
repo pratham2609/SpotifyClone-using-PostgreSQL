@@ -8,6 +8,7 @@ import ModalProvider from '@/providers/ModalProvider'
 import ToasterProvider from '@/providers/ToasterProvider'
 import { Analytics } from '@vercel/analytics/react';
 import getSongsByUserId from '@/actions/getSongsByUserId'
+import Player from '@/components/Player'
 
 const font = Figtree({ subsets: ['latin'] })
 
@@ -32,6 +33,7 @@ export default async function RootLayout({
           <UserProvider>
             <ModalProvider />
             <Sidebar songs={userSongs}>{children}</Sidebar>
+            <Player />
             <Analytics />
           </UserProvider>
         </SupabaseProvider>
