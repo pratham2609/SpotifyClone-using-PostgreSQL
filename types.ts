@@ -48,9 +48,9 @@ export interface UserDetails {
     payment_method?: Stripe.PaymentMethod[Stripe.PaymentMethod.Type];
 }
 
-// export interface ProductWithPrice extends Product {
-//     prices?: Price[];
-// }
+export interface ProductWithPrice extends Product {
+    prices?: Price[];
+}
 
 export interface Subscription {
     id: string;
